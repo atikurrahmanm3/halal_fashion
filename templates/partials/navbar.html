@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+  <div class="container">
+    <a href="/" class="navbar-brand"> Halal Fashion</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#menubar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menubar">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="/" class="nav-link text-dark"
+            ><i class="fas fa-home"></i> Home
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark"
+            ><i class="fas fa-shopping-cart"></i> Shoping
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark"
+            ><i class="far fa-address-card"></i> Products</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a href="#service" class="nav-link text-dark"
+            ><i class="fab fa-blogger-b"></i> Blogs </a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'about' %}" class="nav-link text-dark"
+            ><i class="far fa-address-card"></i> About Us</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark"
+            ><i class="fas fa-sign-in-alt"></i> LogIn</a
+          >
+        </li>
+      </ul>
+    </div>
+    <form action="" class="form-inline my-2 ml-5 my-lg-0">
+      <input
+        type="search"
+        class="form-control mr-sm-2"
+        placeholder="খোজ করুন"
+      />
+      <button class="btn btn-primary my-2 my-sm-0">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </div>
+</nav>
