@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     #custome apps
     'index',
     'aboutus',
+    'product',
+    'blog',
 ]
 
 MIDDLEWARE = [
