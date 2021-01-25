@@ -89,15 +89,15 @@ hr {
     margin-right: 5px;
 }
 
-.links ul li a {
+.flinks ul li a {
     text-decoration: none;
 }
 
-.links ul {
+.flinks ul {
     color: cadetblue;
 }
 
-.link:hover {
+.flink:hover {
     transform: rotate(5deg);
     cursor: pointer;
 }

@@ -19,11 +19,21 @@ $(document).ready(function(){
           $('.links2').toggle(2000);
         });
     
-        $('.links3').hide();
+      $('.links3').hide();
     
-          $('.link3').click(function(){
-            $('.links3').toggle(2000);
-          });
+        $('.link3').click(function(){
+          $('.links3').toggle(2000);
+        });
+
+      $('.links4').hide();
+        $('.link4').click(function(){
+          $('.links4').toggle(2000);
+        });
+
+        $('.links5').hide();
+        $('.link5').click(function(){
+          $('.links5').toggle(2000);
+        });
     
         $('.description').hide();
     
