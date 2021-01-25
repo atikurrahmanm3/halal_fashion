@@ -1,16 +1,15 @@
 {% extends 'layouts.html' %}
 {% load static %}
 {% block title %}
-Aboutus
+Aboutus-page
 {% endblock  %}
 
- {% block contant %} 
+ {% block content %} 
     <!---------About section start-------->
         <div class="about-section bg-info pb-3" id="about">
-            <h1>This is About Page</h1>
             <div class="container">
             
-                <div class="row">
+                <div class="row ">
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                         <div class="about-title text-light"><br>
                             <div class="about-subtitle">
@@ -30,7 +29,7 @@ Aboutus
                         <div class="about-box float-right">
                             <div class="about-inner-box d-flex justify-content-center align-items-center">
                                 <a href="" class="videopopup">
-                                    <img src=" " height="300px" alt="image" class="rounded"><br>
+                                    <img src="{% static 'about.jpg' %} " height="300px" alt="image" class="rounded"><br>
 
                                 </a>
                             </div>
