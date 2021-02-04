@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,10 @@
 body{
     /*background-color: rgb(91, 98, 110);*/
     background-color: #3776ab;
+}
+
+.header{
+    opacity:.;
 }
 .navbar{
     background-color: rgb(102, 255, 51);
@@ -66,7 +71,7 @@ body{
 .footer {
     min-height: 250px;
     background-color: rgba(31, 25, 25);
-    opacity: .7;
+    opacity: .;
     clear: both;
 }
 
